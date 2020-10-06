@@ -1,17 +1,26 @@
 body{
-    background-color: brown;
+    background-color: gray;
 
 }
 header h1{
-    font-size: 35px;
+    font-size: xx-large;
     text-align: center;
     color: coral;
 }
-p{
-    font-size: 20px;
-    margin-top: 20px;
+h2{
+    font-size: xx-large;
     text-align: center;
-    color:blue;
-    text-decoration: green;
+    color: blueviolet;
+}
 
+main ul li{
+    font-size: large;
+    text-align: center;
+    color: green;
+}
+
+main ol li{
+    font-size: large;
+    text-align: center;
+    color: red;
 }
