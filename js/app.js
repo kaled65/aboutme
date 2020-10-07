@@ -1,5 +1,6 @@
 'use strict';
 
+
 var counter = 0;
 
 var greeting = prompt('what is your name? ');
