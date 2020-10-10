@@ -4,14 +4,12 @@ var counter = 0;
 
 function greetingUser(){
 var greeting = prompt('what is your name? ');
-console.log(greeting)
 alert('Hi ' + greeting + ', lets play a simple a simple game!')
 }
 greetingUser()
 
 function question1(){
 var age = prompt('Am I a millennial? y/n');
-console.log(age)
 if (age.toLowerCase() == 'y') {
     alert('you are right');
     counter++;
@@ -24,7 +22,6 @@ question1()
 
 function question2(){
 var sport = prompt('do I practice sport? y/n');
-console.log(sport)
 if (sport.toLowerCase() == 'y') {
     alert('you are right');
     counter++;
@@ -37,7 +34,6 @@ question2()
 
 function question3(){
 var math = prompt('Am I good at math? y/n');
-console.log(math)
 if (math.toLowerCase() == 'n') {
     alert('you are right');
     counter++;
@@ -50,7 +46,6 @@ question3()
 
 function question4(){
 var food = prompt('Do I like spicy food? y/n');
-console.log(food)
 if (food.toLowerCase() == 'n') {
     alert('you are right');
     counter++;
@@ -63,7 +58,6 @@ question4()
 
 function question5(){
 var lan = prompt('Do I speak French? y/n');
-console.log(lan)
 if (lan.toLowerCase() == 'n') {
     alert('you are right');
     counter++;
