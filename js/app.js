@@ -2,10 +2,14 @@
 
 var counter = 0;
 
+function greetingUser(){
 var greeting = prompt('what is your name? ');
 console.log(greeting)
 alert('Hi ' + greeting + ', lets play a simple a simple game!')
+}
+greetingUser()
 
+function question1(){
 var age = prompt('Am I a millennial? y/n');
 console.log(age)
 if (age.toLowerCase() == 'y') {
@@ -15,7 +19,10 @@ if (age.toLowerCase() == 'y') {
 else {
     alert('you are wrong');
 }
+}
+question1()
 
+function question2(){
 var sport = prompt('do I practice sport? y/n');
 console.log(sport)
 if (sport.toLowerCase() == 'y') {
@@ -25,7 +32,10 @@ if (sport.toLowerCase() == 'y') {
 else {
     alert('you are wrong');
 }
+}
+question2()
 
+function question3(){
 var math = prompt('Am I good at math? y/n');
 console.log(math)
 if (math.toLowerCase() == 'n') {
@@ -35,7 +45,10 @@ if (math.toLowerCase() == 'n') {
 else {
     alert('you are wrong');
 }
+}
+question3()
 
+function question4(){
 var food = prompt('Do I like spicy food? y/n');
 console.log(food)
 if (food.toLowerCase() == 'n') {
@@ -45,8 +58,10 @@ if (food.toLowerCase() == 'n') {
 else {
     alert('you are wrong');
 }
+}
+question4()
 
-
+function question5(){
 var lan = prompt('Do I speak French? y/n');
 console.log(lan)
 if (lan.toLowerCase() == 'n') {
@@ -56,7 +71,10 @@ if (lan.toLowerCase() == 'n') {
 else {
     alert('you are wrong');
 }
+}
+question5()
 
+function question6(){
 for (var i = 0; i <= 4; i++) {
     var GPA = prompt('Can you guess my overall GPA in high school? ')
     if (GPA < 84) {
@@ -69,7 +87,10 @@ for (var i = 0; i <= 4; i++) {
         break;
     }
 }
+}
+question6()
 
+function question7(){
 var cities = ['paris', 'new york city', 'london', 'Dubai', 'istanbul', 'macau'];
 var attempts = 1;
 while (attempts < 7) {
@@ -84,5 +105,7 @@ while (attempts < 7) {
         attempts++;
     }
 }
+}
+question7()
 
 alert('Your score is ' + counter);  
